@@ -1,0 +1,15 @@
+C:\Users\dcwat\source\Redaction\obj\Debug\Redaction.FormDoRedaction.resources
+C:\Users\dcwat\source\Redaction\obj\Debug\Redaction.FormFindAndMark.resources
+C:\Users\dcwat\source\Redaction\obj\Debug\Redaction.FormSuccess.resources
+C:\Users\dcwat\source\Redaction\obj\Debug\Redaction.Properties.Resources.resources
+C:\Users\dcwat\source\Redaction\obj\Debug\Redaction.csproj.GenerateResource.cache
+C:\Users\dcwat\source\Redaction\obj\Debug\Redaction.csproj.CoreCompileInputs.cache
+C:\Users\dcwat\source\Redaction\bin\Debug\Redaction.dll
+C:\Users\dcwat\source\Redaction\bin\Debug\Redaction.pdb
+C:\Users\dcwat\source\Redaction\bin\Debug\Redaction.dll.manifest
+C:\Users\dcwat\source\Redaction\bin\Debug\Redaction.vsto
+C:\Users\dcwat\source\Redaction\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\dcwat\source\Redaction\obj\Debug\Redaction.csproj.CopyComplete
+C:\Users\dcwat\source\Redaction\obj\Debug\Redaction.dll
+C:\Users\dcwat\source\Redaction\obj\Debug\Redaction.pdb
+C:\Users\dcwat\source\Redaction\obj\Debug\Redaction.csprojAssemblyReference.cache

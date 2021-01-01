@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="RibbonLoad">
+
+  <ribbon>
+    <tabs>
+      <tab idMso="TabReviewWord">
+        <group id="groupRedact" insertBeforeMso="GroupCompare" getLabel="RibbonGetLabel">
+          <splitButton id="splitButtonMark" size="large" getEnabled="RibbonGetEnabled" getKeytip="RibbonGetKeytip" >
+            <button id="splitButtonMark__btn" imageMso="FileMarkAsFinal" getLabel="RibbonGetLabel" getScreentip="RibbonGetScreentip" getSupertip="RibbonGetSupertip" onAction="SplitButtonMarkClick" />
+            <menu id="splitButtonMark__mnu" getScreentip="RibbonGetScreentip" getSupertip="RibbonGetSupertip" >
+              <button id="buttonMark" imageMso="FileMarkAsFinal" getLabel="RibbonGetLabel" getScreentip="RibbonGetScreentip" getSupertip="RibbonGetSupertip" onAction="SplitButtonMarkClick" />
+              <button id="buttonFindAndMark" imageMso="FindDialog" getLabel="RibbonGetLabel" getSupertip="RibbonGetSupertip" onAction="ButtonFindAndMarkClick" />
+              <button id="buttonRedact" imageMso="IndexMarkEntry" getLabel="RibbonGetLabel" getScreentip="RibbonGetScreentip" getSupertip="RibbonGetSupertip" onAction="ButtonRedactClick" />
+            </menu>
+          </splitButton>
+          <box id="redactBox" boxStyle="vertical">
+            <splitButton id="splitButtonUnmark" getEnabled="RibbonGetEnabled" getKeytip="RibbonGetKeytip">
+              <button id="splitButtonUnmark__btn" imageMso="TableDeleteRows" getLabel="RibbonGetLabel" getScreentip="RibbonGetScreentip" getSupertip="RibbonGetSupertip" onAction="ButtonUnmarkClick" />
+              <menu id="splitButtonUnmark_mnu" getScreentip="RibbonGetScreentip" getSupertip="RibbonGetSupertip" >
+                <button id="buttonUnmark" imageMso="ReviewRejectChangeOrDeleteComment" getLabel="RibbonGetLabel" getScreentip="RibbonGetScreentip" getSupertip="RibbonGetSupertip" onAction="ButtonUnmarkClick" />
+                <button id="buttonUnmarkAll" imageMso="ClearAll" getLabel="RibbonGetLabel" onAction="ButtonUnmarkAllClick" />
+              </menu>
+            </splitButton>
+            <button id="buttonPrevious" imageMso="ReviewPreviousCommentWord" getEnabled="RibbonGetEnabled" getLabel="RibbonGetLabel" getScreentip="RibbonGetScreentip" getSupertip="RibbonGetSupertip" getKeytip="RibbonGetKeytip" onAction="ButtonPreviousClick" />
+            <button id="buttonNext" imageMso="ReviewNextCommentWord" getEnabled="RibbonGetEnabled" getLabel="RibbonGetLabel" getScreentip="RibbonGetScreentip" getSupertip="RibbonGetSupertip" getKeytip="RibbonGetKeytip" onAction="ButtonNextClick" />
+          </box>
+        </group>
+      </tab>
+
+    </tabs>
+  </ribbon>
+</customUI>
+
